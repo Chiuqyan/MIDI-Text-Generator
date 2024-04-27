@@ -189,7 +189,7 @@ def get_model_path():
     return model_path_input.update(choices=model_paths)
 
 
-def load_javascript(dir="javascript"):
+def load_javascript(dir="."):
     scripts_list = glob.glob(f"{dir}/*.js")
     javascript = ""
     for path in scripts_list:
