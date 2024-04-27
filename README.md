@@ -2,7 +2,7 @@
 Code for Yeerchiu/midi-llama-test1
 Adding text input for MIDI transformer model
 
-MIDI-Text pair data generation utilize of [MU-LLaMA]<https://github.com/shansongliu/MU-LLaMA>
+MIDI-Text pair data generation utilize of [MU-LLaMA](https://github.com/shansongliu/MU-LLaMA)
 
 * At present, the code is run in an environment with GPU. There is no proof yet to see if it can run with only CPU.
 * The average GPU memory usage during the runtime of this model is about 5-6GB
@@ -25,8 +25,8 @@ conda activate midi
     pip install -r requirements.txt
 </pre>
 # Reference
-[Original Model]<https://github.com/SkyTNT/midi-model>
-[Dataset]<https://github.com/asigalov61/Los-Angeles-MIDI-Dataset>
+[Original Model](https://github.com/SkyTNT/midi-model)
+[Dataset](https://github.com/asigalov61/Los-Angeles-MIDI-Dataset)
 
 
 
