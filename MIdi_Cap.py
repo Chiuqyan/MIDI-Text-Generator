@@ -44,7 +44,7 @@ class TextAndMIDIModel(pl.LightningModule):
         
         self.tokenizer = tokenizer
         self.midi_model = MIDIModel(tokenizer)
-        self.midi_model.load_state_dict(torch.load(r'Q:\CU\5802\Audio\Sym\midi-model\ckpts\model.ckpt'), strict=False)#'/root/autodl-fs/model.ckpt'))  # midi ckpt
+        self.midi_model.load_state_dict(torch.load('Yeerchiu/midi-llama-test1/model.ckpt'), strict=False)# midi ckpt path here
         for param in self.midi_model.parameters():  # frozen
             param.requires_grad = False
         self.text_model = GPT2LMHeadModel.from_pretrained("openai-community/gpt2")
