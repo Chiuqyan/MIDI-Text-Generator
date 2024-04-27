@@ -1,11 +1,11 @@
 # Midi-Text-Generator
-Code for Yeerchiu/midi-llama-test1  
+Code for Yeerchiu/MIDI-TEXT  
 
 Adding text input for MIDI transformer model
 
 MIDI-Text pair data generation utilize of [MU-LLaMA](https://github.com/shansongliu/MU-LLaMA)
 
-if you want to run app.py, at least one ckpt file is needed above(Yeerchiu/midi-llama-test1).
+if you want to run app.py, at least one ckpt file is needed above(Yeerchiu/MIDI-TEXT).
 
 * At present, the code is run in an environment with GPU. There is no proof yet to see if it can run with only CPU.
 * The average GPU memory usage during the runtime of this model is about 5-6GB
