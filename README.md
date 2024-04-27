@@ -1,5 +1,6 @@
 # Midi-Text-Generator
-Code for Yeerchiu/midi-llama-test1
+Code for Yeerchiu/midi-llama-test1  
+
 Adding text input for MIDI transformer model
 
 MIDI-Text pair data generation utilize of [MU-LLaMA](https://github.com/shansongliu/MU-LLaMA)
