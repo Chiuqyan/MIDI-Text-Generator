@@ -1,7 +1,10 @@
 # MidiLLMBasedGenerator
 Code for Yeerchiu/midi-llama-test1
+
 * At present, the code is run in an environment with GPU. There is no proof yet to see if it can run with only CPU.
 * The average GPU memory usage during the runtime of this model is about 5-6GB
+* There may be some address errors that have not been corrected.
+  
 if you want to run app.py, at least one ckpt file is needed above(Yeerchiu/midi-llama-test1).
 
 # Prepare the environment
@@ -18,6 +21,7 @@ conda activate midi
     or
     pip install -r requirements.txt
   </pre>
+
 
 
 
