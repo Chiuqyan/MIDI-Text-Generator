@@ -2,7 +2,7 @@
 Code for Yeerchiu/midi-llama-test1
 * At present, the code is run in an environment with GPU. There is no proof yet to see if it can run with only CPU.
 * The average GPU memory usage during the runtime of this model is about 5-6GB
-if you want to run app.py, at least one ckpt file is needed above.
+if you want to run app.py, at least one ckpt file is needed above(Yeerchiu/midi-llama-test1).
 
 # Prepare the environment
 - According to the official configuration GPU graphics driver, etc.
