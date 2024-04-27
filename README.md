@@ -17,7 +17,7 @@ if you want to run app.py, at least one ckpt file is needed above(Yeerchiu/MIDI-
 
 
 # Prepare the environment
-- According to the official configuration GPU graphics driver, etc.
+- Follow the official guidance for configuring the GPU graphics drivers, CUDA, and cuDNN, etc.
 - Create a new environment
 <pre>
 conda create midi -n python=3.10
