@@ -34,7 +34,8 @@ conda activate midi
 [Original Model](https://github.com/SkyTNT/midi-model)  
 [Training Dataset](https://github.com/asigalov61/Los-Angeles-MIDI-Dataset)
 # Device 
-MIDI-Text pair data generated on V100
+MIDI-Text pair data generated on V100  
+
 Training on RTX 4090  
 App Tested in RTX 4060 (Laptop)
 
